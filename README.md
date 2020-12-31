@@ -6,7 +6,7 @@ It's easy to use too! make an instance of `SpellCheck()` and use the `.setlist` 
 
 # Examples
 ### Code
-checker = SpellCheck()
+checker = SpellCheck()\
 countries = ["India", "America", "Japan", "China", "Nepal"]\
 checker.set_list(countries)\
 result = checker.correct("Amriaeca")\
